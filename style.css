@@ -1,0 +1,19 @@
+body {
+    background-color: #E5E5E5;
+}
+
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+}
+    
+.header {
+    
+}
+
+@font-face {
+    font-family: "Helvetica";
+    src: url(fonts);
+    font-style: normal;
+    font-weight: normal;
+}
