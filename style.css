@@ -1,4 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
+    width: 100vw;
+    height: 100vh;
     background-color: #E5E5E5;
 }
 
@@ -8,7 +15,69 @@ body {
 }
     
 .header {
-    
+    padding: 50px 240px;
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-nav-bar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.link.activ {
+    padding-left: 121px;
+    font-weight: 700;
+}
+
+.link {
+    font-weight: 400;
+    font-size: 16px;
+    font-family: Oswald;
+    padding: 0 40px;
+    color: #4B5D68;
+    text-decoration: none;
+}
+
+.request-button-head {
+    color: #212353;
+    box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+    letter-spacing: 0.005em;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: Oswald;
+    border: 5px solid #FFFFFF;
+    border-radius: 50px;
+    background-color: #FFFFFF;
+    width: 210px;
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+
+.request-button-head:hover {
+     border-color: #9C69E2;
+     color: #FFFFFF;
+     background-color: #9C69E2;
+}
+
+.request-button-head:focus {
+    outline: 0;
+}
+
+.arrow-button-head {
+    transition: transform .3s ease;
+    font-size: 20px;
+}
+
+.request-button-head:hover .arrow-button-head {
+    transform:translateX(10px);
 }
 
 @font-face {
